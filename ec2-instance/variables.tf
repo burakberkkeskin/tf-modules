@@ -55,8 +55,7 @@ variable "security_group_ids" {
 }
 variable "eip_id" {
   description = "Elastic IP ID"
-  type        = list(string)
-  default     = []
+  type        = string
 }
 variable "ec2_intance_ami" {
   description = "The AMI to use for the instance"
