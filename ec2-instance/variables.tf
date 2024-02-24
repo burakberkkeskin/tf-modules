@@ -13,11 +13,6 @@ variable "name" {
   type        = string
   default     = "Main"
 }
-
-variable "ec2_count" {
-  description = "The number of instances to create"
-  type        = number
-}
 variable "ec2_disk_size" {
   description = "Disk size of the instance"
   type        = number

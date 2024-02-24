@@ -4,7 +4,6 @@ resource "aws_key_pair" "main" {
 }
 
 resource "aws_instance" "main" {
-  count             = var.ec2_count
   availability_zone = var.zone
 
   // Resource Settings
